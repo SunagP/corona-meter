@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Corona counter website</title>
+        <style type="text/css">
+        @import url(log-in.css);
+        </style>
+        <script src="checking.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-style">
+                <div class="xyz">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href=""><img class="logo" src="./images/corona3.jpg"><B style="color: lightcyan;">CORONA STATS</B></a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  > <a href=home.html  style="color: red;">Home</a></li>
+                        <li  > <a href=shop.html  style="color: red;">Shop</a></li>
+                    
+                    </ul>
+                </div>
+            </nav></header>
+
+         <div class="login">
+                <img src="./images/user1.png" class="avatar">
+                <form name="log" onsubmit="check_log()" action="login.php" method="post">
+                    <label for="username">Username </label><br><br>
+                    <input type="text" id="username" name="username" placeholder="ENTER USERNAME"><br>
+                    <br>
+                    <label for="password">Password  </label><br><br>
+                    <input type="password" id="password" name="password" placeholder="ENTER PASSWORD"><br><br><br>
+                    <input type="submit" value="Log-in"><br><br>
+                    <p>Don't have an account?<br><a href="sign-in.html" target="_self">Sign-in</a></p>
+                </form>
+            </div> 
+        
+    </body>
+</html>

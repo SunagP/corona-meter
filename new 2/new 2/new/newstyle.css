@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 50px;
+    background-color:black;
+    opacity: 0.8;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px ;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/corona2.jpg");
+}
+
+.container{
+    z-index:1;
+    position: relative;
+    top:120px;
+    margin: 0 auto;
+    border-radius:  24px;
+    background:aqua;
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
+}
+
+.board{
+    column-count: 3;
+    column-gap: 1rem;
+}
+.sample{
+    text-align: center;
+}
+.container h2{ 
+margin: 0 0 30px;
+text-align: center;
+}
+img#flag{
+    height: 20px;
+    width: 20px;
+}
+.card{
+    width: 100%;
+    background: #ccc;
+    padding: 8%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+.card.a{
+    background: #41a7ff;
+}
+.card.cr{
+    background: #ff3434;
+}
+
+.card.r{
+    background: #32b336;
+}
+.card.ca{
+    background: #d83f3f;
+}
+.card.d{
+    background: #ff0053;
+}
+.card.t{
+    background: #ffa501;
+}
+.card span{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.card i{
+    font-size: 3rem;
+}
+@media screen and (max-width:1400px){
+    body{
+        height:970px;
+    }
+    .board{
+        column-count: 2;
+    }
+    .card span{
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+    .container{
+        margin-bottom:49% ;
+        position: relative;
+    }
+}
+@media screen and (max-width:900px){
+    .board{
+        column-count: 2;    
+    }
+    .card span{
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+    .container{
+        margin-bottom:50%;
+        position: relative;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .board{
+        column-count: 1;
+    }
+    .card span{
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+    .container{
+       margin-top: 40%;
+        position: sticky;
+    } 
+}
+.drop{
+    position:relative;
+    width: 150px;
+    margin-left: 1cm;
+    margin-bottom: 30px;
+}

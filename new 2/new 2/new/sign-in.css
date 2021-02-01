@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 50px;
+    background-color:black;
+    opacity: 0.8;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px ;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    height: 50vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./images/corona2.jpg");
+}
+.avatar{
+    border-radius: 50%;
+    position: absolute;
+    top:-30px;
+    width:50px;
+    height:50px;
+    left:95px;
+}
+
+.signin{
+    position:relative;
+    top:150px;
+    left:600px;
+    opacity: 0.8;
+    background-color:black;
+    border-radius: 10% 10% 10% 10%;
+    color: green;
+    width: max-content;
+    height:400px;
+    padding:70px 30px;
+}
+
+
+.signin input[type="text"],input[type="password"]
+{
+    border:None;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:None;
+    color: #fff;
+}
+.signin input[type="submit"]{
+    border:None;
+    outline:None;
+    height:40px;
+    background:#fb2525;
+    color:#fff;
+    font-size:18px;
+    border-radius: 20px;
+    width:150px;
+}
+@media screen and (max-width:1400px){
+    body{
+        height:970px;
+    }
+    .signin{
+        top:200px;
+        left:500px; 
+    }
+    .avatar{
+        left:95px;
+        height:100;
+    }
+
+}
+@media screen and (max-width:900px){
+
+    .signin{
+        top:150px;
+        left:250px; 
+    }
+    .avatar{
+    left:90px;
+    }
+
+}
+@media screen and (max-width:550px){
+    .signin{
+        top:150px;
+        left:50px; 
+    }
+    .avatar{
+        left:90px;
+    }
+}
+@media screen and (max-width:350px){
+    .signin{
+        top:150px;
+        left:10px; 
+    }
+    .avatar{
+        left:90px;
+    }
+}
